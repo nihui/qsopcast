@@ -1,0 +1,21 @@
+qsopcast is a GUI front-end of the Linux command line executive of P2P network TV.
+
+Library requirements:
+qt4
+
+Compilation and install: go to the src subdirectory and execute the following commands:
+$mkdir build
+$cd build
+$cmake -DCMAKE_BUILD_TYPE=relwithdeb ..
+$make
+$make install
+
+Usage:
+you need to setup these following files before using qsopcast
+Linux version command line executive sp-sc from http://www.sopcast.com
+Linux version command line executive xpplive from midlinux repo
+Linux version ppstream libraries from http://www.ppstream.com
+Linux version command line executive xpps compiled from sources from qsopcast
+
+Language support:
+Currently Several other languages are supported besides English. To use one of them, make sure your environmental variable LANG is configured properly.

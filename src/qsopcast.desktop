@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=qsopcast
+GenericName[zh_CN]=网络电视
+Comment[zh_CN]=点对点网络电视
+Comment=P2P network TV
+Exec=qsopcast
+Icon=sopcast.xpm
+Terminal=0
+Type=Application
+Categories=Application;Network;
